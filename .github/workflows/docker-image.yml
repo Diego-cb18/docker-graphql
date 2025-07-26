@@ -30,7 +30,7 @@ jobs:
         docker build -t diego18dkds/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push -t diego18dkds/docker-graphql:0.0.2 .
+        docker push -t diego18dkds/docker-graphql:0.0.2
         
 
       
